@@ -1,0 +1,35 @@
+{
+  "name": "canvas-to-bmp",
+  "version": "1.0.0",
+  "description": "Can log \"canvas to bmp\" to the console!",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "publish-lib": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeratS/canvas-to-bmp"
+  },
+  "keywords": [
+    "demo",
+    "typescript",
+    "library",
+    "hello world"
+  ],
+  "author": "Berat Sulimani <berat_01993@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BeratS/canvas-to-bmp/issues"
+  },
+  "homepage": "https://github.com/BeratS/canvas-to-bmp#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "typescript": "^4.2.3"
+  }
+}
