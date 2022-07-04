@@ -22,14 +22,13 @@ The library above returns:
 
 canvas, ctx, you can get the width and hight from canvas like: canvas.width or canvas.height
 
-and than you can call the method bellow:
+and than you can call the method optimized bellow:
 
 ****************************************
-convertCanvasToBmp(ctx, width, height);
+const result: number[]  = convertCanvasToBmp(ctx, width, height);
 ****************************************
 
-This return 1 and 0, 1 if the pixel is black and 0 if the pixel is white
-
+This return 1 (0) and 0 (255), 1 if the pixel is black and 0 if the pixel is white
 
 ```
 <br>
