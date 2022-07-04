@@ -42,9 +42,9 @@ git clone git@github.com:BeratS/canvas-to-bmp.git
 <br>
 
 # Browsers
-It's tested on latest Chrome(102) and Firefox(100), Safari(15), Cog Browser there are performing significantly better on big DOM trees, possibly due to it's more performant SVG support.
-
-Internet Explorer is not (and will not be) supported, as it does not support SVG <foreignObject> tag
+```
+It's tested on latest Chrome(102) and Firefox(100), Safari(15), Cog Browser
+```
 
 <br>
 
